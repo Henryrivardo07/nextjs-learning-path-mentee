@@ -1,3 +1,8 @@
+/**
+ * API Client - Centralized fetch wrapper
+ * Menangani authentication headers, error handling, dan type safety
+ */
+
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3001";
 
 type RequestOptions = RequestInit & {

@@ -1,7 +1,7 @@
-export default function Homepage() {
+export default function DashboardPage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <h1>Ini Halaman Homepage</h1>
+    <div>
+      <h1>Dashboard Page</h1>
     </div>
   );
 }
