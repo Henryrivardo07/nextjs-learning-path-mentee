@@ -182,16 +182,19 @@ Akses [http://localhost:3000](http://localhost:3000)
 - Protected routes (redirect ke login jika belum auth)
 - Custom hook `useAuth` untuk state management
 
-### 🚧 Todos (Struktur sudah ada, implementasi bisa dilanjutkan)
-- [ ] Todo list display
-- [ ] Create todo
-- [ ] Update todo
-- [ ] Delete todo
-- [ ] Mark as complete
+### ✅ Todos
+- ✅ Todo list display dengan pagination
+- ✅ Create todo
+- ✅ Update todo (edit page)
+- ✅ Delete todo
+- ✅ Mark as complete/incomplete
+- ✅ Filter by status (completed/not completed)
+- ✅ Filter by priority (HIGH/MEDIUM/LOW)
 
 ---
 
 ## 🎓 Learning Path untuk Mentee
+
 
 ### **Level 1: Understanding Structure** (Pemula)
 1. Pahami struktur folder dan routing
@@ -199,14 +202,15 @@ Akses [http://localhost:3000](http://localhost:3000)
 3. Eksplorasi file `layout.tsx` dan `page.tsx`
 
 ### **Level 2: Feature Implementation** (Intermediate)
-1. Pelajari custom hooks (`useAuth.ts`)
-2. Pahami API integration layer (`api.ts`)
-3. Implementasi fitur todos yang belum selesai
+1. Pelajari custom hooks (`useAuth.ts`, `useTodos.ts`)
+2. Pahami API integration layer (`api.ts`, `axios.ts`)
+3. Trace data flow dari UI → Hook → Service → API
 
 ### **Level 3: Advanced Concepts** (Advanced)
 1. Server-side authentication dengan cookies
-2. Optimasi performance dengan Next.js features
+2. Rendering strategies (SSR, SSG, CSR)
 3. Error handling dan loading states
+4. Performance optimization (useCallback, useMemo)
 
 ---
 
